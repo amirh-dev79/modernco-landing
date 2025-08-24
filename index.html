@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Modern Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#64748b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-6">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-gray-900">ModernCo</h1>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-primary transition-colors">Home</a>
+                    <a href="#about" class="text-gray-700 hover:text-primary transition-colors">About</a>
+                    <a href="#services" class="text-gray-700 hover:text-primary transition-colors">Services</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary transition-colors">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-br from-primary to-blue-700 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-4xl md:text-6xl font-bold mb-6">
+                    Transform Your Business
+                </h2>
+                <p class="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
+                    We deliver innovative solutions that drive growth and success for modern businesses
+                </p>
+                <a href="#contact" class="inline-block bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors">
+                    Get Started Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Why Choose Us?
+                </h3>
+                <p class="text-xl text-secondary max-w-2xl mx-auto">
+                    We combine expertise with innovation to deliver exceptional results
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">Fast & Reliable</h4>
+                    <p class="text-secondary">Lightning-fast solutions that you can depend on</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">Quality Assured</h4>
+                    <p class="text-secondary">Rigorous testing ensures top-notch quality</p>
+                </div>
+                
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">Expert Support</h4>
+                    <p class="text-secondary">24/7 support from our experienced team</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Get In Touch
+                </h3>
+                <p class="text-xl text-secondary">
+                    Ready to start your project? We'd love to hear from you.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+                <form class="space-y-6" action="#" method="POST">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">
+                                First Name *
+                            </label>
+                            <input 
+                                type="text" 
+                                id="firstName" 
+                                name="firstName" 
+                                required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                                placeholder="John"
+                            >
+                        </div>
+                        
+                        <div>
+                            <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">
+                                Last Name *
+                            </label>
+                            <input 
+                                type="text" 
+                                id="lastName" 
+                                name="lastName" 
+                                required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                                placeholder="Doe"
+                            >
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+                            Email Address *
+                        </label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                            placeholder="john@example.com"
+                        >
+                    </div>
+
+                    <div>
+                        <label for="company" class="block text-sm font-medium text-gray-700 mb-2">
+                            Company
+                        </label>
+                        <input 
+                            type="text" 
+                            id="company" 
+                            name="company"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                            placeholder="Your Company"
+                        >
+                    </div>
+
+                    <div>
+                        <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">
+                            Subject *
+                        </label>
+                        <select 
+                            id="subject" 
+                            name="subject" 
+                            required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                        >
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="services">Services</option>
+                            <option value="support">Support</option>
+                            <option value="partnership">Partnership</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-2">
+                            Message *
+                        </label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            rows="6" 
+                            required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors resize-vertical"
+                            placeholder="Tell us about your project or inquiry..."
+                        ></textarea>
+                    </div>
+
+                    <div class="flex items-center">
+                        <input 
+                            id="newsletter" 
+                            name="newsletter" 
+                            type="checkbox"
+                            class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded"
+                        >
+                        <label for="newsletter" class="ml-2 block text-sm text-gray-700">
+                            I'd like to receive updates and newsletters
+                        </label>
+                    </div>
+
+                    <div class="text-center">
+                        <button 
+                            type="submit"
+                            class="bg-primary text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-200 transition-all duration-200 transform hover:scale-105"
+                        >
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">ModernCo</h4>
+                    <p class="text-gray-400">
+                        Transforming businesses with innovative solutions and exceptional service.
+                    </p>
+                </div>
+                
+                <div>
+                    <h5 class="font-semibold mb-4">Services</h5>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Web Development</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Mobile Apps</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Consulting</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Support</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h5 class="font-semibold mb-4">Company</h5>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h5 class="font-semibold mb-4">Connect</h5>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">LinkedIn</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Twitter</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Facebook</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 ModernCo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handler
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We\'ll get back to you soon.');
+        });
+    </script>
+</body>
+</html>
